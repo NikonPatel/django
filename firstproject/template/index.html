@@ -1,0 +1,20 @@
+<! DOCTYPE>
+{% load staticfiles %}
+
+<html>
+<head>
+<style>
+body {
+    background-color:lightblue;
+    }
+</style>
+</head>
+<body>
+<h1>Hello i am a part of Template  and Static file </h1>
+<link rel="stylesheet" href="{% static 'css/mystyle2.css' %}"/>
+<img src = "{% static 'images/nikon2.jpeg' %}" alt="Ooops something went wrong">
+<img src = "{% static 'images/nikon.jpg' %}" alt="Ooops something went wrong">
+<link rel="stylesheet" href="{% static 'css/mystyle.css' %}"/>
+{{ insert_me }}
+</body>
+</html>
